@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="./styles/common.css">
+	<link rel="stylesheet" href="./styles/header.css">
+	<link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+	<div id="main">
+		<!--Begin header-->
+		<div id="header">
+			<div class="right-header">
+				<div class="icon-left-header">
+					<img src="./imgs/resources/logo.png" alt="Logo">
+				</div>
+				<p>Fast, Frequent & Safe Flights</p>
+			</div>
+
+			<div class="left-header">
+				<div class="sub-left-header">
+					<a href="./login.html">
+						
+						<img src="./imgs/resources/home2.png" alt="Home" class="icon-sub-left-header">
+					</a>
+					<a href="./login.html">Login</a>
+				</div>
+				<div class="sub-right-header">
+					<a href="./register.html">
+						<img src="./imgs/resources/register.png" alt="Register" class="icon-sub-right-header">
+					</a>
+					<a href="./register.hmtl">Register</a>
+				</div>
+				<div class="sub-right-header">
+					
+				</div>
+			</div>
+
+			<!--Navigation header-->
+			<div class="nav">
+				<ul class="list-nav">
+					<li><a href="./index.html">Home</a></li>
+					<li><a href="book.html">Book</a></li>
+					<li><a href="managebooking1.html">Manage Booking</a></li>
+				</ul>
+			</div>
+		</div>
+		<!--End header-->
+		<!--Begin Content-->
+		<div id="content">
+			<div class="title">
+				Flight
+			</div>
+		
+			<div class="main-form">
+				<form action="#">
+					<div class="round-away">
+						<input type="radio" name = "rd-way" class = "form-rd-btn" > Round trip
+						<input type="radio" name = "rd-way" class = "form-rd-btn">One way
+					</div>
+					<div class="content-form">
+						<label for="">From</label>
+						<select name="from" id="" class = "select-form"> 
+							<option value="Hà Nội">Hà Nội</option>
+						</select> <br>
+
+						<label for="">To</label>
+						<select name="to" id="" class = "select-form">
+							<option value="Nha Trang">Nha Trang</option>
+						</select><br>
+					</div>
+					<label>Departure</label>
+					<input type="text" class = "form-time">
+					<label>Return</label>
+					<input type="text" class = "form-time"> <br>
+
+					<div class="form-submit">
+						<input type="submit" value="Search">
+					</div>
+					
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

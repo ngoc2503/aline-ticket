@@ -1,0 +1,27 @@
+#content-detail {
+    padding: 64px;
+}
+
+#content-detail h4 {
+    color: red;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #ccc;
+    width: 45%;
+
+}
+
+#content-detail>p {
+    margin-bottom: 16px;
+}
+
+#content-detail .detail-code {
+    font-weight: bolder;
+}
+
+#content-detail .date-code {
+    font-style: italic;
+}
+
+#content-detail td {
+    width: 20%;
+}

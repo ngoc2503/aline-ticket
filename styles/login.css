@@ -1,0 +1,47 @@
+#content-login {
+    min-height: 500px;
+    text-align: center;
+    font-size: 18px;
+    padding: 64px 64px;
+}
+
+#content-login .title-form {
+    color: red;
+    padding-bottom: 48px;
+}
+
+#content-login .form-login {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content-login .row {
+    margin-bottom: 16px;
+}
+
+#content-login .left-col {
+    display: inline-block;
+    min-width: 30%;
+    text-align: left;
+}
+
+#content-login .right-col {
+    display: inline-block;
+    width: 50%;
+    padding: 4px;
+    text-align: left;
+}
+
+ #content-login .right-col input[type="submit"]{
+    padding: 8px 12px;
+    background-color: #2196f3;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+}
+
+#content-login .right-col input[type="submit"]:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}

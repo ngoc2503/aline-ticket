@@ -1,0 +1,62 @@
+#content-booking1 {
+    min-height: 500px;
+    padding: 32px;
+}
+
+#content-booking1 h1 {
+    text-align: center;
+    color: red;
+    margin-bottom: 32px;
+}
+
+#content-booking1 .search-booking {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content-booking1 .type-booking {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+#content-booking1 #all-booking,
+#content-booking1 #code-booking {
+    margin-right: 4px;
+}
+
+.type-booking label {
+    display: inline-block;
+    margin-right: 48px
+}
+
+#content-booking1 .row {
+    margin-bottom: 16px;
+}
+
+#content-booking1 .col-left {
+    display: inline-block;
+    width: 40%;
+}
+
+#id-code {
+    padding: 4px;
+}
+
+#content-booking1 .col-right {
+    display: inline-block;
+    width: 50%;
+}
+
+#search-submit {
+    padding: 8px 16px;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    background: #2196f3;
+}
+
+#search-submit:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}

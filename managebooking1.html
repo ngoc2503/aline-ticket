@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Manage Booking</title>
+	<link rel="stylesheet" href="./styles/common.css">
+	<link rel="stylesheet" href="./styles/header.css">
+	<link rel="stylesheet" href="./styles/booking1.css">
+</head>
+<body>
+	<div id="main">
+		<!--Begin header-->
+		<div id="header">
+			<div class="right-header">
+				<div class="icon-left-header">
+					<img src="./imgs/resources/logo.png" alt="Logo">
+				</div>
+				<p>Fast, Frequent & Safe Flights</p>
+			</div>
+
+			<div class="left-header">
+				<div class="sub-left-header">
+					<a href="./login.html">
+						
+						<img src="./imgs/resources/home2.png" alt="Home" class="icon-sub-left-header">
+					</a>
+					<a href="./login.html">Login</a>
+				</div>
+				<div class="sub-right-header">
+					<a href="register.html">
+						<img src="./imgs/resources/register.png" alt="Register" class="icon-sub-right-header">
+					</a>
+					<a href="./register.html">Register</a>
+				</div>
+				<div class="sub-right-header">
+					
+				</div>
+			</div>
+
+			<!--Navigation header-->
+			<div class="nav">
+				<ul class="list-nav">
+					<li><a href="./index.html">Home</a></li>
+					<li><a href="./book.html">Book</a></li>
+					<li><a href="./managebooking1.html">Manage Booking</a></li>
+				</ul>
+			</div>
+		</div>
+		<!--End header-->
+		<div id="content-booking1">
+			<h1>Search Booking</h1>
+			<form class="search-booking" action="#">
+				<div class="type-booking">
+					<input type="radio" name = "type-book" id = "code-booking">
+					<label for="code-booking">Reservation code</label>
+					<input type="radio" name="type-book" id="all-booking">
+					<label for="all-booking">All bookings</label>
+				</div>
+
+				<div class="row">
+					<label for="id-code" class="col-left">Enter reservation code</label>
+					<input type="text" id="id-code" class="col-right">
+				</div>
+
+				<div class="row">
+					<label class="col-left"></label>
+					<div class="col-right">
+						<input type="submit" value="Search" id="search-submit">					
+					</div>
+					
+				</div>
+			</form>
+		</div>
+	</div>
+</body>
+</html>

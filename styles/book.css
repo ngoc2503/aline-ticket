@@ -1,0 +1,64 @@
+
+#content-book {
+    padding: 48px 32px;
+   
+}
+
+#content-book .address {
+    padding-bottom: 16px;
+    text-align: right;
+}
+
+#content-book h2 {
+    padding-bottom: 16px;
+}
+
+#content-book .place {
+    padding: 0 0 16px 16px;
+}
+
+#content-book .place span {
+	color: #ccc;
+}
+
+#content-book .info-departure {
+    padding: 0 0 16px 32px;
+}
+
+.date-start {
+    color: red;
+    padding-bottom: 16px;
+}
+#content-book td {
+    width: 150px;
+    padding: 4px 0;
+}
+
+#content-book #price li {
+
+    list-style-type: disc;
+    background: #000;
+    color: red;
+    padding: 4px;
+    list-style-position: inside;
+
+}
+
+#content-book .note-info {
+    padding-top: 16px;
+}
+
+#content-book .save-info-oder {
+    text-align: right;
+}
+
+#content-book .save-info {
+    background: #2196f3;
+    color: #fff;
+    padding: 12px 32px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+#content-book .save-info:hover {
+    opacity: 0.8;
+}
